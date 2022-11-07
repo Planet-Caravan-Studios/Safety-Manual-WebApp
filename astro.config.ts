@@ -47,22 +47,12 @@ export default defineConfig({
 				  globDirectory: 'dist',
 				  globPatterns: [
 				    '**/*.{js,css,html,svg,png,jpg,jpeg,gif,webp,woff,woff2,ttf,eot,ico,xml}',
-				    '*.html',
+				    '**/*.html',
 				  ],
 				  // Don't fallback on document based (e.g. `/some-page`) requests
 				  // This removes an errant console.log message from showing up.
 				  navigateFallback: 'null',
-				  runtimeCaching: [
-			            getCache({ 
-			              pattern: /^https:\/\/bms-arm-toolkit-pwa-template.netlify.app\//, 
-			              name: "index" 
-			            }),
-			            getCache({ 
-			              pattern: /^https:\/\/bms-arm-toolkit-pwa-template.netlify.app\/resources/, 
-			              name: "resources" 
-			            })
-			          ]
-				},
+				  
 			})
 		]
 	},
