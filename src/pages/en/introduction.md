@@ -1,10 +1,33 @@
 ---
-title: Introduction
+title: SAFETY AND HEALTH MANUAL
 description: Docs intro
 layout: ../../layouts/MainLayout.astro
 ---
 
-**Welcome to Astro!**
+#### Frank V. Radomski and Sons, Inc
+##### Revised June 1, 2021
+
+Frank V. Radomski and Sons, Inc. is committed to providing and maintaining a safe
+work environment and protecting the health of our employees, visitors to our jobs
+and facilities, our customers, and the general public.
+
+Hazard recognition, hazard evaluation, and hazard control are the guiding
+principles used to identify and minimize safety and health risks to our company and
+our employees.
+
+When potential risks have been identified, the exposures associated with the risks
+are evaluated by conducting appropriate monitoring, measurements, and work
+practice observations to ensure that appropriate control procedures can be put in
+place to protect the workers from injury or illness.
+
+Exposure evaluation methods will follow all current and future federal, state, and
+local regulatory requirements and accepted industrial hygiene practices for
+monitoring and protecting worker health and safety.
+
+
+---
+
+STARTER CONTENT
 
 This is the `docs` starter template. It contains all of the features that you need to build a Markdown-powered documentation site, including:
 

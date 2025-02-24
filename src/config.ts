@@ -47,11 +47,42 @@ export type Sidebar = Record<
 >;
 export const SIDEBAR: Sidebar = {
 	en: {
-		'Section 1': [
-			{ text: 'Introduction', link: 'en/introduction' },
-			{ text: 'Page 2', link: 'en/page-2' },
-			{ text: 'Page 3', link: 'en/page-3' },
+		'Articles 1-10': [
+			{ text: 'Health and Safety Policy', link: 'en/health-and-safety' },
+			{ text: 'Job Posting Requirements', link: 'en/job-posting-requirements' },
+			{ text: 'Modified (Light) Duty Work Agreement Policy', link: 'en/page-3' },
+			{ text: 'After Injury Rehabilitation Program', link: 'en/page-4' },
+			{ text: 'Workers Compensation Benefits Policy', link: 'en/page-x' },
+			{ text: 'Housekeeping Policy', link: 'en/page-x' },
+			{ text: 'Standard Employee & New Hire Orientation Procedure', link: 'en/page-x' },
+			{ text: 'Drug and Alcohol Abuse Policy', link: 'en/page-x' },
+			{ text: 'Supervisory Guiselines - Drug & Alcohol Abuse Policy', link: 'en/page-x' },
+			{ text: 'Disciplinary Policy', link: 'en/page-x' },
 		],
-		'Section 2': [{ text: 'Page 4', link: 'en/page-4' }],
+		'Articles 11-20': [
+			{ text: 'Sample', link: 'en/page-x' },
+			{ text: 'Sample', link: 'en/page-x' },
+			{ text: 'Sample', link: 'en/page-x' },
+		],
+		'Articles 21-30': [
+			{ text: 'Sample', link: 'en/page-x' },
+			{ text: 'Sample', link: 'en/page-x' },
+			{ text: 'Sample', link: 'en/page-x' },
+		],
+		'Articles 31-40': [
+			{ text: 'Sample', link: 'en/page-x' },
+			{ text: 'Sample', link: 'en/page-x' },
+			{ text: 'Sample', link: 'en/page-x' },
+		],
+		'Articles 41-50': [
+			{ text: 'Sample', link: 'en/page-x' },
+			{ text: 'Sample', link: 'en/page-x' },
+			{ text: 'Sample', link: 'en/page-x' },
+		],
+		'Articles 51-57': [
+			{ text: 'Sample', link: 'en/page-x' },
+			{ text: 'Sample', link: 'en/page-x' },
+			{ text: 'Sample', link: 'en/page-x' },
+		],
 	},
 };
